@@ -1,7 +1,7 @@
 /* Importar Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Estilos generales */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -12,8 +12,8 @@ body, html {
 
 header {
     text-align: center;
-    padding: 0; /* Eliminamos el relleno para que el carrusel ocupe todo el espacio vertical */
-    background-color: #302C2B; /* Mantenemos el fondo negro para el carrusel */
+    padding: 0; 
+    background-color: #302C2B; 
     color: #fff;
 }
 
@@ -22,14 +22,14 @@ header {
     height: 400px;
 }
 .carousel {
-    margin-top: 0; /* Eliminamos el margen superior del carrusel */
+    margin-top: 0; 
 }
 
 .section {
     padding: 50px 20px;
     margin: 20px 0;
     border-radius: 8px;
-    background: #f4f4f4; /* Cambia el color de fondo de cada sección según tus preferencias */
+    background: #f4f4f4; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,7 +49,7 @@ section h2 {
     background-color: #fff;
 }
 
-/* Animación para el título */
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -59,7 +59,7 @@ header h1, header p {
     animation: fadeIn 4s ease-out forwards;
 }
 
-/* Estilos para los iconos de redes sociales */
+
 .social-icons {
     padding: 20px;
     text-align: center;
@@ -77,7 +77,7 @@ header h1, header p {
     color: #666;
 }
 
-/* Estilo para hacer que el carrusel ocupe todo el ancho */
+
 .carousel-item iframe {
     height: 400px; 
     width: 100%;
